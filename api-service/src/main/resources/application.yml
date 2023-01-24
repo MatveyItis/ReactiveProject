@@ -1,0 +1,14 @@
+external-service:
+  base-url:
+    order-search: http://order-search-service:8080/orderSearchService
+    product-info: http://product-info-service:8080/productInfoService
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:pwd@mongo:27017/admin
+      host: mongo
+      port: 27017
+      database: admin
+      username: root
+      password: pwd

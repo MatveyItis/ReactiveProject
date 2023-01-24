@@ -1,0 +1,4 @@
+external-service:
+  base-url:
+    order-search: http://localhost:8000/orderSearchService
+    product-info: http://localhost:8000/productInfoService
